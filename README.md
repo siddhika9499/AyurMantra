@@ -1,9 +1,5 @@
 # Ayur - Ayurvedic Diet & Lifestyle Management System
 
-## Smart India Hackathon 2025
-**Team:** SpyTech Innovators  
-**Problem Statement ID:** 25024
-
 ## Features
 - 🌿 Dynamic Dosha-Based Diet Recommendations (Vata, Pitta, Kapha)
 - 🔍 Multilingual Search Optimization
