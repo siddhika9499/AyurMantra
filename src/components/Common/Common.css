@@ -1,0 +1,13 @@
+/* Loading Spinner Styles */
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+
+/* Error Boundary Styles */
+.error-container {
+  text-align: center;
+  padding: 40px 20px;
+}

@@ -1,0 +1,29 @@
+.diet-plan-container {
+  padding: 40px 0;
+  min-height: calc(100vh - 200px);
+  background-color: #f5f5f5;
+}
+
+/* Print Styles */
+@media print {
+  .diet-plan-container {
+    background-color: white;
+  }
+  
+  button {
+    display: none;
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .diet-plan-container {
+    padding: 20px 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .diet-plan-container {
+    padding: 16px 0;
+  }
+}

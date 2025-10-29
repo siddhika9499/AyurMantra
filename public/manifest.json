@@ -1,0 +1,9 @@
+{
+  "short_name": "AyurMantra",
+  "name": "AyurMantra - Ayurvedic Diet Management",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#2e7d32",
+  "background_color": "#ffffff"
+}

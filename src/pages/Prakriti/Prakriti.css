@@ -1,0 +1,18 @@
+.prakriti-container {
+  padding: 40px 0;
+  min-height: calc(100vh - 200px);
+  background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .prakriti-container {
+    padding: 20px 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .prakriti-container {
+    padding: 16px 0;
+  }
+}

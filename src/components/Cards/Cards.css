@@ -1,0 +1,17 @@
+/* Card hover effects */
+.MuiCard-root {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.MuiCard-root:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Card Media */
+.MuiCardMedia-root {
+  transition: transform 0.3s ease;
+}
+
+.MuiCard-root:hover .MuiCardMedia-root {
+  transform: scale(1.05);
+}

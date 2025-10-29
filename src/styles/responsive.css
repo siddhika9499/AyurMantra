@@ -1,0 +1,148 @@
+
+/* Mobile First Approach */
+
+/* Extra Small Devices (phones, less than 600px) */
+@media (max-width: 599px) {
+  h1 {
+    font-size: 1.75rem !important;
+  }
+  
+  h2 {
+    font-size: 1.5rem !important;
+  }
+  
+  h3 {
+    font-size: 1.25rem !important;
+  }
+  
+  h4 {
+    font-size: 1.125rem !important;
+  }
+  
+  .MuiContainer-root {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+  
+  .MuiPaper-root {
+    padding: 16px !important;
+  }
+  
+  .MuiCard-root {
+    margin-bottom: 16px;
+  }
+  
+  .MuiButton-root {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+  
+  .MuiGrid-container {
+    margin: 0 !important;
+  }
+}
+
+/* Small Devices (tablets, 600px and up) */
+@media (min-width: 600px) and (max-width: 959px) {
+  .MuiContainer-root {
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+  }
+  
+  .MuiPaper-root {
+    padding: 24px !important;
+  }
+}
+
+/* Medium Devices (desktops, 960px and up) */
+@media (min-width: 960px) {
+  /* Default styles apply */
+}
+
+/* Large Devices (large desktops, 1280px and up) */
+@media (min-width: 1280px) {
+  /* Default styles apply */
+}
+
+/* Landscape Orientation */
+@media (orientation: landscape) and (max-height: 600px) {
+  .hero-section {
+    padding: 40px 0 !important;
+  }
+  
+  .auth-container {
+    padding: 20px 0 !important;
+  }
+}
+
+/* Touch Devices */
+@media (hover: none) and (pointer: coarse) {
+  .MuiButton-root {
+    min-height: 48px;
+  }
+  
+  .MuiIconButton-root {
+    padding: 12px;
+  }
+}
+
+/* High DPI Displays */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  img {
+    image-rendering: -webkit-optimize-contrast;
+  }
+}
+
+/* Flexbox Utilities */
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Spacing Utilities */
+.mt-1 { margin-top: 8px; }
+.mt-2 { margin-top: 16px; }
+.mt-3 { margin-top: 24px; }
+.mt-4 { margin-top: 32px; }
+
+.mb-1 { margin-bottom: 8px; }
+.mb-2 { margin-bottom: 16px; }
+.mb-3 { margin-bottom: 24px; }
+.mb-4 { margin-bottom: 32px; }
+
+.p-1 { padding: 8px; }
+.p-2 { padding: 16px; }
+.p-3 { padding: 24px; }
+.p-4 { padding: 32px; }
+
+/* Text Utilities */
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+
+/* Visibility Utilities */
+.hide-mobile {
+  display: none !important;
+}
+
+@media (min-width: 600px) {
+  .hide-mobile {
+    display: block !important;
+  }
+  
+  .hide-desktop {
+    display: none !important;
+  }
+}
